@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_distribution_test" kind="class" prot="public">
+    <compoundname>DistributionTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_distribution_test_1aaa0dd12750241f987478befec0623fd0" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject DistributionTest.spawnObject</definition>
+        <argsstring></argsstring>
+        <name>spawnObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="11" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_distribution_test_1a4618adc34db8114a938f18edbed3558d" compoundref="_distribution_test_8cs" startline="49" endline="66">SpawnAfterTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_distribution_test_1a00f4fa7463e9a30243e39913b6b83bcb" prot="public" static="no" mutable="no">
+        <type>Canvas</type>
+        <definition>Canvas DistributionTest.canvas</definition>
+        <argsstring></argsstring>
+        <name>canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="12" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_distribution_test_1ae02fb6b29812819af96f924acdc17c4f" compoundref="_distribution_test_8cs" startline="30" endline="38">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_distribution_test_1a6c0c993b3c6f43360f70352b54f9d78c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DistributionTest.randomScreenHeight</definition>
+        <argsstring></argsstring>
+        <name>randomScreenHeight</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="16" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_distribution_test_1a4618adc34db8114a938f18edbed3558d" compoundref="_distribution_test_8cs" startline="49" endline="66">SpawnAfterTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_distribution_test_1a10748e0778f01b5178a3c9c0a556409b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DistributionTest.randomScreenWidth</definition>
+        <argsstring></argsstring>
+        <name>randomScreenWidth</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="17" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_distribution_test_1a4618adc34db8114a938f18edbed3558d" compoundref="_distribution_test_8cs" startline="49" endline="66">SpawnAfterTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_distribution_test_1a841a9c3c5c00b9e411401742d532f804" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DistributionTest.screenWidth</definition>
+        <argsstring></argsstring>
+        <name>screenWidth</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="19" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_distribution_test_1a4618adc34db8114a938f18edbed3558d" compoundref="_distribution_test_8cs" startline="49" endline="66">SpawnAfterTime</referencedby>
+        <referencedby refid="class_distribution_test_1ae02fb6b29812819af96f924acdc17c4f" compoundref="_distribution_test_8cs" startline="30" endline="38">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_distribution_test_1a6417122803f25a3b76038a6666ddb1b3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DistributionTest.screenHeight</definition>
+        <argsstring></argsstring>
+        <name>screenHeight</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="20" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_distribution_test_1a4618adc34db8114a938f18edbed3558d" compoundref="_distribution_test_8cs" startline="49" endline="66">SpawnAfterTime</referencedby>
+        <referencedby refid="class_distribution_test_1ae02fb6b29812819af96f924acdc17c4f" compoundref="_distribution_test_8cs" startline="30" endline="38">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_distribution_test_1abc519d21a2b8df0de889d5e65113d131" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DistributionTest.maxSpawnNumber</definition>
+        <argsstring></argsstring>
+        <name>maxSpawnNumber</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="22" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_distribution_test_1a4618adc34db8114a938f18edbed3558d" compoundref="_distribution_test_8cs" startline="49" endline="66">SpawnAfterTime</referencedby>
+        <referencedby refid="class_distribution_test_1a5e77b415357154d0c57307e0567caabe" compoundref="_distribution_test_8cs" startline="40" endline="46">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_distribution_test_1a1244a5dff4eb525dc9b31ad5a84fcb97" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 DistributionTest.pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <initializer>= new Vector3(0, 0, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="24" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_distribution_test_1a4618adc34db8114a938f18edbed3558d" compoundref="_distribution_test_8cs" startline="49" endline="66">SpawnAfterTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_distribution_test_1ad24346f9c947bf4452e0a7b84e8e1431" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 DistributionTest.randomWorldPoint</definition>
+        <argsstring></argsstring>
+        <name>randomWorldPoint</name>
+        <initializer>= new Vector3(0, 0, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="25" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_distribution_test_1a4618adc34db8114a938f18edbed3558d" compoundref="_distribution_test_8cs" startline="49" endline="66">SpawnAfterTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_distribution_test_1a96254693e662721022a4ebde86b1d93f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36" kindref="member">NormalDistribution.ConfidenceLevel_e</ref></type>
+        <definition>NormalDistribution.ConfidenceLevel_e DistributionTest.conf</definition>
+        <argsstring></argsstring>
+        <name>conf</name>
+        <initializer>= NormalDistribution.ConfidenceLevel_e._90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="27" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_distribution_test_1a4618adc34db8114a938f18edbed3558d" compoundref="_distribution_test_8cs" startline="49" endline="66">SpawnAfterTime</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_distribution_test_1ae02fb6b29812819af96f924acdc17c4f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DistributionTest.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="30" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="30" bodyend="38"/>
+        <references refid="class_distribution_test_1a00f4fa7463e9a30243e39913b6b83bcb" compoundref="_distribution_test_8cs" startline="12">canvas</references>
+        <references refid="class_distribution_test_1a6417122803f25a3b76038a6666ddb1b3" compoundref="_distribution_test_8cs" startline="20">screenHeight</references>
+        <references refid="class_distribution_test_1a841a9c3c5c00b9e411401742d532f804" compoundref="_distribution_test_8cs" startline="19">screenWidth</references>
+      </memberdef>
+      <memberdef kind="function" id="class_distribution_test_1a5e77b415357154d0c57307e0567caabe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DistributionTest.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="40" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="40" bodyend="46"/>
+        <references refid="class_distribution_test_1abc519d21a2b8df0de889d5e65113d131" compoundref="_distribution_test_8cs" startline="22">maxSpawnNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="class_distribution_test_1a4618adc34db8114a938f18edbed3558d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DistributionTest.SpawnAfterTime</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnAfterTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="49" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="49" bodyend="66"/>
+        <references refid="class_distribution_test_1a96254693e662721022a4ebde86b1d93f" compoundref="_distribution_test_8cs" startline="27">conf</references>
+        <references refid="class_distribution_test_1abc519d21a2b8df0de889d5e65113d131" compoundref="_distribution_test_8cs" startline="22">maxSpawnNumber</references>
+        <references refid="class_distribution_test_1a1244a5dff4eb525dc9b31ad5a84fcb97" compoundref="_distribution_test_8cs" startline="24">pos</references>
+        <references refid="class_distribution_test_1a6c0c993b3c6f43360f70352b54f9d78c" compoundref="_distribution_test_8cs" startline="16">randomScreenHeight</references>
+        <references refid="class_distribution_test_1a10748e0778f01b5178a3c9c0a556409b" compoundref="_distribution_test_8cs" startline="17">randomScreenWidth</references>
+        <references refid="class_distribution_test_1ad24346f9c947bf4452e0a7b84e8e1431" compoundref="_distribution_test_8cs" startline="25">randomWorldPoint</references>
+        <references refid="class_distribution_test_1a6417122803f25a3b76038a6666ddb1b3" compoundref="_distribution_test_8cs" startline="20">screenHeight</references>
+        <references refid="class_distribution_test_1a841a9c3c5c00b9e411401742d532f804" compoundref="_distribution_test_8cs" startline="19">screenWidth</references>
+        <references refid="class_distribution_test_1aaa0dd12750241f987478befec0623fd0" compoundref="_distribution_test_8cs" startline="11">spawnObject</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>DistributionTest</label>
+        <link refid="class_distribution_test"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>DistributionTest</label>
+        <link refid="class_distribution_test"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>conf</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>NormalDistribution</label>
+        <link refid="class_normal_distribution"/>
+      </node>
+      <node id="7">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" line="10" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/DistributionTest.cs" bodystart="9" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_distribution_test_1a00f4fa7463e9a30243e39913b6b83bcb" prot="public" virt="non-virtual"><scope>DistributionTest</scope><name>canvas</name></member>
+      <member refid="class_distribution_test_1a96254693e662721022a4ebde86b1d93f" prot="private" virt="non-virtual"><scope>DistributionTest</scope><name>conf</name></member>
+      <member refid="class_distribution_test_1abc519d21a2b8df0de889d5e65113d131" prot="private" virt="non-virtual"><scope>DistributionTest</scope><name>maxSpawnNumber</name></member>
+      <member refid="class_distribution_test_1a1244a5dff4eb525dc9b31ad5a84fcb97" prot="private" virt="non-virtual"><scope>DistributionTest</scope><name>pos</name></member>
+      <member refid="class_distribution_test_1a6c0c993b3c6f43360f70352b54f9d78c" prot="private" virt="non-virtual"><scope>DistributionTest</scope><name>randomScreenHeight</name></member>
+      <member refid="class_distribution_test_1a10748e0778f01b5178a3c9c0a556409b" prot="private" virt="non-virtual"><scope>DistributionTest</scope><name>randomScreenWidth</name></member>
+      <member refid="class_distribution_test_1ad24346f9c947bf4452e0a7b84e8e1431" prot="private" virt="non-virtual"><scope>DistributionTest</scope><name>randomWorldPoint</name></member>
+      <member refid="class_distribution_test_1a6417122803f25a3b76038a6666ddb1b3" prot="private" virt="non-virtual"><scope>DistributionTest</scope><name>screenHeight</name></member>
+      <member refid="class_distribution_test_1a841a9c3c5c00b9e411401742d532f804" prot="private" virt="non-virtual"><scope>DistributionTest</scope><name>screenWidth</name></member>
+      <member refid="class_distribution_test_1a4618adc34db8114a938f18edbed3558d" prot="private" virt="non-virtual"><scope>DistributionTest</scope><name>SpawnAfterTime</name></member>
+      <member refid="class_distribution_test_1aaa0dd12750241f987478befec0623fd0" prot="public" virt="non-virtual"><scope>DistributionTest</scope><name>spawnObject</name></member>
+      <member refid="class_distribution_test_1ae02fb6b29812819af96f924acdc17c4f" prot="private" virt="non-virtual"><scope>DistributionTest</scope><name>Start</name></member>
+      <member refid="class_distribution_test_1a5e77b415357154d0c57307e0567caabe" prot="private" virt="non-virtual"><scope>DistributionTest</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

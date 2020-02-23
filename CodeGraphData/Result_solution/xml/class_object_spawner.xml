@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_object_spawner" kind="class" prot="public">
+    <compoundname>ObjectSpawner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_object_spawner_1a43fe8ca09cea96d565147ab1b4a2c18d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjectSpawner.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/ObjectSpawner.cs" line="8" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/ObjectSpawner.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_object_spawner_1ad7e8b41a774d4032474bd539f8873050" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjectSpawner.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/ObjectSpawner.cs" line="14" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/ObjectSpawner.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="23">
+        <label>ObjectSpawner</label>
+        <link refid="class_object_spawner"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="25">
+        <label>ObjectSpawner</label>
+        <link refid="class_object_spawner"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/ObjectSpawner.cs" line="6" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/ObjectSpawner.cs" bodystart="5" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_object_spawner_1a43fe8ca09cea96d565147ab1b4a2c18d" prot="private" virt="non-virtual"><scope>ObjectSpawner</scope><name>Start</name></member>
+      <member refid="class_object_spawner_1ad7e8b41a774d4032474bd539f8873050" prot="private" virt="non-virtual"><scope>ObjectSpawner</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

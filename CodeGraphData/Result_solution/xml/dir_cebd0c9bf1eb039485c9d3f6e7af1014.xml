@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_cebd0c9bf1eb039485c9d3f6e7af1014" kind="dir">
+    <compoundname>D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts</compoundname>
+    <innerdir refid="dir_d1817a21d17057c10be1ae6fecc16651">D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test</innerdir>
+    <innerfile refid="_manager_g_a_m_e_8cs">ManagerGAME.cs</innerfile>
+    <innerfile refid="_manager_u_i_8cs">ManagerUI.cs</innerfile>
+    <innerfile refid="_object_pool_8cs">ObjectPool.cs</innerfile>
+    <innerfile refid="_object_spawner_8cs">ObjectSpawner.cs</innerfile>
+    <innerfile refid="_timer_idle_state_8cs">TimerIdleState.cs</innerfile>
+    <innerfile refid="_timer_level_8cs">TimerLevel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_manager_g_a_m_e" kind="class" prot="public">
+    <compoundname>ManagerGAME</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_manager_g_a_m_e_1aae67298733c578843617095123b8de7a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManagerGAME.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/ManagerGAME.cs" line="8" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/ManagerGAME.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_manager_g_a_m_e_1a32c4209269d85e6a2ce5cefa67b63602" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManagerGAME.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/ManagerGAME.cs" line="14" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/ManagerGAME.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="9">
+        <label>ManagerGAME</label>
+        <link refid="class_manager_g_a_m_e"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="12">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="11">
+        <label>ManagerGAME</label>
+        <link refid="class_manager_g_a_m_e"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/ManagerGAME.cs" line="6" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/ManagerGAME.cs" bodystart="5" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_manager_g_a_m_e_1aae67298733c578843617095123b8de7a" prot="private" virt="non-virtual"><scope>ManagerGAME</scope><name>Start</name></member>
+      <member refid="class_manager_g_a_m_e_1a32c4209269d85e6a2ce5cefa67b63602" prot="private" virt="non-virtual"><scope>ManagerGAME</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

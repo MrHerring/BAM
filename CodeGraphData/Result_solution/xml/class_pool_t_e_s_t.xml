@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pool_t_e_s_t" kind="class" prot="public">
+    <compoundname>PoolTEST</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pool_t_e_s_t_1a8fb4a6b9e026453d72645007feab5a9a" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] PoolTEST.enemyTypes</definition>
+        <argsstring></argsstring>
+        <name>enemyTypes</name>
+        <initializer>= new GameObject[<ref refid="class_pool_t_e_s_t_1a7557a760324b6a92cd78e33e4863cc5a" kindref="member">enemyTypeNumber</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/PoolTEST.cs" line="7" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/PoolTEST.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pool_t_e_s_t_1a7557a760324b6a92cd78e33e4863cc5a" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int PoolTEST.enemyTypeNumber</definition>
+        <argsstring></argsstring>
+        <name>enemyTypeNumber</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/PoolTEST.cs" line="10" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/PoolTEST.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pool_t_e_s_t_1a7a00017d4e32c428508bd94ae3037b46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PoolTEST.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/PoolTEST.cs" line="13" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/PoolTEST.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pool_t_e_s_t_1ad37a41d024f6b09e14ffc01da3942eee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PoolTEST.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/PoolTEST.cs" line="19" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/PoolTEST.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="27">
+        <label>PoolTEST</label>
+        <link refid="class_pool_t_e_s_t"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="29">
+        <label>PoolTEST</label>
+        <link refid="class_pool_t_e_s_t"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/PoolTEST.cs" line="6" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/PoolTEST.cs" bodystart="5" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_pool_t_e_s_t_1a7557a760324b6a92cd78e33e4863cc5a" prot="private" virt="non-virtual"><scope>PoolTEST</scope><name>enemyTypeNumber</name></member>
+      <member refid="class_pool_t_e_s_t_1a8fb4a6b9e026453d72645007feab5a9a" prot="public" virt="non-virtual"><scope>PoolTEST</scope><name>enemyTypes</name></member>
+      <member refid="class_pool_t_e_s_t_1a7a00017d4e32c428508bd94ae3037b46" prot="private" virt="non-virtual"><scope>PoolTEST</scope><name>Start</name></member>
+      <member refid="class_pool_t_e_s_t_1ad37a41d024f6b09e14ffc01da3942eee" prot="private" virt="non-virtual"><scope>PoolTEST</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

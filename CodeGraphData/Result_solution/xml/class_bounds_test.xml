@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bounds_test" kind="class" prot="public">
+    <compoundname>BoundsTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bounds_test_1a128473749c56899546a2ea66859f4261" prot="public" static="no" mutable="no">
+        <type>Canvas</type>
+        <definition>Canvas BoundsTest.canvas</definition>
+        <argsstring></argsstring>
+        <name>canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/BoundsTest.cs" line="10" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/BoundsTest.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_bounds_test_1a08b18c93fb34d956f47b96711a7d8a95" compoundref="_bounds_test_8cs" startline="12" endline="21">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bounds_test_1a08b18c93fb34d956f47b96711a7d8a95" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BoundsTest.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/BoundsTest.cs" line="12" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/BoundsTest.cs" bodystart="12" bodyend="21"/>
+        <references refid="class_bounds_test_1a128473749c56899546a2ea66859f4261" compoundref="_bounds_test_8cs" startline="10">canvas</references>
+        <references refid="class_bounds_test_1a0c121898fda946da4a0285d2466548d1" compoundref="_bounds_test_8cs" startline="29" endline="33">RectTransformToScreenSpace</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bounds_test_1a865decee2da88b541047d5f93425558f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BoundsTest.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/BoundsTest.cs" line="24" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/BoundsTest.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_bounds_test_1a0c121898fda946da4a0285d2466548d1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Rect</type>
+        <definition>static Rect BoundsTest.RectTransformToScreenSpace</definition>
+        <argsstring>(RectTransform transform)</argsstring>
+        <name>RectTransformToScreenSpace</name>
+        <param>
+          <type>RectTransform</type>
+          <declname>transform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/BoundsTest.cs" line="29" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/BoundsTest.cs" bodystart="29" bodyend="33"/>
+        <referencedby refid="class_bounds_test_1a08b18c93fb34d956f47b96711a7d8a95" compoundref="_bounds_test_8cs" startline="12" endline="21">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="0">
+        <label>BoundsTest</label>
+        <link refid="class_bounds_test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="2">
+        <label>BoundsTest</label>
+        <link refid="class_bounds_test"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/BoundsTest.cs" line="7" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/BoundsTest.cs" bodystart="6" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_bounds_test_1a128473749c56899546a2ea66859f4261" prot="public" virt="non-virtual"><scope>BoundsTest</scope><name>canvas</name></member>
+      <member refid="class_bounds_test_1a0c121898fda946da4a0285d2466548d1" prot="public" virt="non-virtual"><scope>BoundsTest</scope><name>RectTransformToScreenSpace</name></member>
+      <member refid="class_bounds_test_1a08b18c93fb34d956f47b96711a7d8a95" prot="private" virt="non-virtual"><scope>BoundsTest</scope><name>Start</name></member>
+      <member refid="class_bounds_test_1a865decee2da88b541047d5f93425558f" prot="private" virt="non-virtual"><scope>BoundsTest</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

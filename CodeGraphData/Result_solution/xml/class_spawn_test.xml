@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spawn_test" kind="class" prot="public">
+    <compoundname>SpawnTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_spawn_test_1aaf5a2b45a08d07a5b16967de99de9fbd" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] SpawnTest.krugovi</definition>
+        <argsstring></argsstring>
+        <name>krugovi</name>
+        <initializer>= new GameObject[3]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" line="9" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_spawn_test_1a189fa05b619f2fe3468dd5c65c86b430" compoundref="_spawn_test_8cs" startline="14" endline="20">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spawn_test_1a737ec3fd8064909e3a958dc9b79ab5ab" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int SpawnTest.POOL_SIZE</definition>
+        <argsstring></argsstring>
+        <name>POOL_SIZE</name>
+        <initializer>= 9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" line="11" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_spawn_test_1a189fa05b619f2fe3468dd5c65c86b430" compoundref="_spawn_test_8cs" startline="14" endline="20">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_spawn_test_1a705813abcba5c20759f81ac3670ecf36" prot="private" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; SpawnTest.objectPool</definition>
+        <argsstring></argsstring>
+        <name>objectPool</name>
+        <initializer>= new List&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" line="12" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_spawn_test_1a90716343144234fab5bce6997a939e7a" compoundref="_spawn_test_8cs" startline="23" endline="26">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_spawn_test_1a189fa05b619f2fe3468dd5c65c86b430" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpawnTest.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" line="14" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" bodystart="14" bodyend="20"/>
+        <references refid="class_spawn_test_1aaf5a2b45a08d07a5b16967de99de9fbd" compoundref="_spawn_test_8cs" startline="9">krugovi</references>
+        <references refid="class_spawn_test_1a737ec3fd8064909e3a958dc9b79ab5ab" compoundref="_spawn_test_8cs" startline="11">POOL_SIZE</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spawn_test_1a90716343144234fab5bce6997a939e7a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpawnTest.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" line="23" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" bodystart="23" bodyend="26"/>
+        <references refid="class_spawn_test_1a705813abcba5c20759f81ac3670ecf36" compoundref="_spawn_test_8cs" startline="12">objectPool</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spawn_test_1a596acf6073906fce78cb82e4dec73a54" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpawnTest.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" line="29" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>SpawnTest</label>
+        <link refid="class_spawn_test"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>SpawnTest</label>
+        <link refid="class_spawn_test"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" line="6" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/SpawnTest.cs" bodystart="5" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_spawn_test_1a189fa05b619f2fe3468dd5c65c86b430" prot="private" virt="non-virtual"><scope>SpawnTest</scope><name>Awake</name></member>
+      <member refid="class_spawn_test_1aaf5a2b45a08d07a5b16967de99de9fbd" prot="public" virt="non-virtual"><scope>SpawnTest</scope><name>krugovi</name></member>
+      <member refid="class_spawn_test_1a705813abcba5c20759f81ac3670ecf36" prot="private" virt="non-virtual"><scope>SpawnTest</scope><name>objectPool</name></member>
+      <member refid="class_spawn_test_1a737ec3fd8064909e3a958dc9b79ab5ab" prot="private" virt="non-virtual"><scope>SpawnTest</scope><name>POOL_SIZE</name></member>
+      <member refid="class_spawn_test_1a90716343144234fab5bce6997a939e7a" prot="private" virt="non-virtual"><scope>SpawnTest</scope><name>Start</name></member>
+      <member refid="class_spawn_test_1a596acf6073906fce78cb82e4dec73a54" prot="private" virt="non-virtual"><scope>SpawnTest</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

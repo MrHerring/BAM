@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_normal_distribution" kind="class" prot="public">
+    <compoundname>NormalDistribution</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36" prot="public" static="no">
+        <name>ConfidenceLevel_e</name>
+        <enumvalue id="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36a234f04cbaa79fb1ddb66789044816836" prot="public">
+          <name>_60</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36a1a293a5fa145b00f0e140360b71bd6f3" prot="public">
+          <name>_80</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36a94b799ec4e1a0cbcb518d5491a55af4f" prot="public">
+          <name>_90</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36a524dc9f86cfc768f1ef58e9032c9b09e" prot="public">
+          <name>_95</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36a4ad8c64131a21408f2951642b6cf18bb" prot="public">
+          <name>_98</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36adfcfcd318c1cccd671e813506585f91a" prot="public">
+          <name>_99</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36a4a969fb0b998462bdd8dbcc78493d410" prot="public">
+          <name>_998</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36af1cec3813bb5e99835e850fd9c029de6" prot="public">
+          <name>_999</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/NormalDistribution.cs" line="15" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/NormalDistribution.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_normal_distribution_1a46ef57a576192b82f19233a1fdec2e07" prot="private" static="yes" mutable="no">
+        <type>float[]</type>
+        <definition>float [] NormalDistribution.confidence_to_z_score</definition>
+        <argsstring></argsstring>
+        <name>confidence_to_z_score</name>
+        <initializer>= {
+        0.84162123f,
+        1.28155156f,
+        1.64485363f,
+        1.95996399f,
+        2.32634787f,
+        2.57582931f,
+        3.0902323f,
+        3.29052673f
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/NormalDistribution.cs" line="141" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/NormalDistribution.cs" bodystart="141" bodyend="-1"/>
+        <referencedby refid="class_normal_distribution_1a4a9c30fbff07a948a1eab456ec7d3903" compoundref="_normal_distribution_8cs" startline="39" endline="63">RandomRangeNormalDistribution</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_normal_distribution_1a4a9c30fbff07a948a1eab456ec7d3903" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float NormalDistribution.RandomRangeNormalDistribution</definition>
+        <argsstring>(float min, float max, ConfidenceLevel_e confidence_level_cutoff)</argsstring>
+        <name>RandomRangeNormalDistribution</name>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <param>
+          <type><ref refid="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36" kindref="member">ConfidenceLevel_e</ref></type>
+          <declname>confidence_level_cutoff</declname>
+        </param>
+        <briefdescription>
+<para>Get a random number from a normal distribution in [min,max]. </para>        </briefdescription>
+        <detaileddescription>
+<para>Get a random number between min [inclusive] and max [inclusive] with probability matching a normal distribution along this range. The width of the distribution is described by the confidence_level_cutoff, which describes what percentage of the bell curve should be over the provided range. For example, a confidence level cutoff of 0.999 will result in a bell curve from min to max that contains 99.9% of the area under the complete curve. 0.80 gives a curve with 80% of the distribution&apos;s area. Because a normal distribution flattens of towards the ends, this means that 0.80 will have more even distribution between min and max than 0.999.  <simplesect kind="return"><para>A random number between min [inclusive] and max [inclusive], with probability described by the distribution. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The min value returned [inclusive].</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The max min value returned [inclusive].</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>confidence_level_cutoff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The percentage of a standard normal distribution that should be represented in the range. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/NormalDistribution.cs" line="39" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/NormalDistribution.cs" bodystart="39" bodyend="63"/>
+        <references refid="class_normal_distribution_1a46ef57a576192b82f19233a1fdec2e07" compoundref="_normal_distribution_8cs" startline="141">confidence_to_z_score</references>
+        <references refid="class_normal_distribution_1a5c73f480387664ff5fab5d1cdc4cffc3" compoundref="_normal_distribution_8cs" startline="79" endline="94">RandomNormalDistribution</references>
+      </memberdef>
+      <memberdef kind="function" id="class_normal_distribution_1a5c73f480387664ff5fab5d1cdc4cffc3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float NormalDistribution.RandomNormalDistribution</definition>
+        <argsstring>(float mean, float std_dev)</argsstring>
+        <name>RandomNormalDistribution</name>
+        <param>
+          <type>float</type>
+          <declname>mean</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>std_dev</declname>
+        </param>
+        <briefdescription>
+<para>Get a random number from a normal distribution with given mean and standard deviation. </para>        </briefdescription>
+        <detaileddescription>
+<para>Get a random number with probability following a normal distribution with given mean and standard deviation. The likelihood of getting any given number corresponds to its value along the y-axis in the distribution described by the parameters.  <simplesect kind="return"><para>A random number between -infinity and infinity, with probability described by the distribution. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Mean (or center) of the normal distribution.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>std_dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Standard Deviation (or Sigma) of the normal distribution.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/NormalDistribution.cs" line="79" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/NormalDistribution.cs" bodystart="79" bodyend="94"/>
+        <references refid="class_normal_distribution_1af5a6a4bd05b0921d692042641cb67453" compoundref="_normal_distribution_8cs" startline="102" endline="138">RandomFromStandardNormalDistribution</references>
+        <referencedby refid="class_normal_distribution_1a4a9c30fbff07a948a1eab456ec7d3903" compoundref="_normal_distribution_8cs" startline="39" endline="63">RandomRangeNormalDistribution</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_normal_distribution_1af5a6a4bd05b0921d692042641cb67453" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float NormalDistribution.RandomFromStandardNormalDistribution</definition>
+        <argsstring>()</argsstring>
+        <name>RandomFromStandardNormalDistribution</name>
+        <briefdescription>
+<para>Get a random number from the standard normal distribution. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A random number in range [-inf, inf] from the standard normal distribution (mean == 1, stand deviation == 1). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/NormalDistribution.cs" line="102" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/NormalDistribution.cs" bodystart="102" bodyend="138"/>
+        <referencedby refid="class_normal_distribution_1a5c73f480387664ff5fab5d1cdc4cffc3" compoundref="_normal_distribution_8cs" startline="79" endline="94">RandomNormalDistribution</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/NormalDistribution.cs" line="10" column="1" bodyfile="D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test/NormalDistribution.cs" bodystart="9" bodyend="151"/>
+    <listofallmembers>
+      <member refid="class_normal_distribution_1a46ef57a576192b82f19233a1fdec2e07" prot="private" virt="non-virtual"><scope>NormalDistribution</scope><name>confidence_to_z_score</name></member>
+      <member refid="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36" prot="public" virt="non-virtual"><scope>NormalDistribution</scope><name>ConfidenceLevel_e</name></member>
+      <member refid="class_normal_distribution_1af5a6a4bd05b0921d692042641cb67453" prot="public" virt="non-virtual"><scope>NormalDistribution</scope><name>RandomFromStandardNormalDistribution</name></member>
+      <member refid="class_normal_distribution_1a5c73f480387664ff5fab5d1cdc4cffc3" prot="public" virt="non-virtual"><scope>NormalDistribution</scope><name>RandomNormalDistribution</name></member>
+      <member refid="class_normal_distribution_1a4a9c30fbff07a948a1eab456ec7d3903" prot="public" virt="non-virtual"><scope>NormalDistribution</scope><name>RandomRangeNormalDistribution</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

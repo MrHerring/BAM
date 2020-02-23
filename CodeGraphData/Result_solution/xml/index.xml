@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_bounds_test" kind="class"><name>BoundsTest</name>
+    <member refid="class_bounds_test_1a128473749c56899546a2ea66859f4261" kind="variable"><name>canvas</name></member>
+    <member refid="class_bounds_test_1a08b18c93fb34d956f47b96711a7d8a95" kind="function"><name>Start</name></member>
+    <member refid="class_bounds_test_1a865decee2da88b541047d5f93425558f" kind="function"><name>Update</name></member>
+    <member refid="class_bounds_test_1a0c121898fda946da4a0285d2466548d1" kind="function"><name>RectTransformToScreenSpace</name></member>
+  </compound>
+  <compound refid="class_distribution_test" kind="class"><name>DistributionTest</name>
+    <member refid="class_distribution_test_1aaa0dd12750241f987478befec0623fd0" kind="variable"><name>spawnObject</name></member>
+    <member refid="class_distribution_test_1a00f4fa7463e9a30243e39913b6b83bcb" kind="variable"><name>canvas</name></member>
+    <member refid="class_distribution_test_1a6c0c993b3c6f43360f70352b54f9d78c" kind="variable"><name>randomScreenHeight</name></member>
+    <member refid="class_distribution_test_1a10748e0778f01b5178a3c9c0a556409b" kind="variable"><name>randomScreenWidth</name></member>
+    <member refid="class_distribution_test_1a841a9c3c5c00b9e411401742d532f804" kind="variable"><name>screenWidth</name></member>
+    <member refid="class_distribution_test_1a6417122803f25a3b76038a6666ddb1b3" kind="variable"><name>screenHeight</name></member>
+    <member refid="class_distribution_test_1abc519d21a2b8df0de889d5e65113d131" kind="variable"><name>maxSpawnNumber</name></member>
+    <member refid="class_distribution_test_1a1244a5dff4eb525dc9b31ad5a84fcb97" kind="variable"><name>pos</name></member>
+    <member refid="class_distribution_test_1ad24346f9c947bf4452e0a7b84e8e1431" kind="variable"><name>randomWorldPoint</name></member>
+    <member refid="class_distribution_test_1a96254693e662721022a4ebde86b1d93f" kind="variable"><name>conf</name></member>
+    <member refid="class_distribution_test_1ae02fb6b29812819af96f924acdc17c4f" kind="function"><name>Start</name></member>
+    <member refid="class_distribution_test_1a5e77b415357154d0c57307e0567caabe" kind="function"><name>Update</name></member>
+    <member refid="class_distribution_test_1a4618adc34db8114a938f18edbed3558d" kind="function"><name>SpawnAfterTime</name></member>
+  </compound>
+  <compound refid="class_manager_g_a_m_e" kind="class"><name>ManagerGAME</name>
+    <member refid="class_manager_g_a_m_e_1aae67298733c578843617095123b8de7a" kind="function"><name>Start</name></member>
+    <member refid="class_manager_g_a_m_e_1a32c4209269d85e6a2ce5cefa67b63602" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_manager_u_i" kind="class"><name>ManagerUI</name>
+    <member refid="class_manager_u_i_1ae677b0e5021b8eeebc35754138613161" kind="function"><name>Start</name></member>
+    <member refid="class_manager_u_i_1a309527f649c49b66c31f3d0c9c8c0e76" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_normal_distribution" kind="class"><name>NormalDistribution</name>
+    <member refid="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36" kind="enum"><name>ConfidenceLevel_e</name></member>
+    <member refid="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36a234f04cbaa79fb1ddb66789044816836" kind="enumvalue"><name>_60</name></member>
+    <member refid="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36a1a293a5fa145b00f0e140360b71bd6f3" kind="enumvalue"><name>_80</name></member>
+    <member refid="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36a94b799ec4e1a0cbcb518d5491a55af4f" kind="enumvalue"><name>_90</name></member>
+    <member refid="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36a524dc9f86cfc768f1ef58e9032c9b09e" kind="enumvalue"><name>_95</name></member>
+    <member refid="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36a4ad8c64131a21408f2951642b6cf18bb" kind="enumvalue"><name>_98</name></member>
+    <member refid="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36adfcfcd318c1cccd671e813506585f91a" kind="enumvalue"><name>_99</name></member>
+    <member refid="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36a4a969fb0b998462bdd8dbcc78493d410" kind="enumvalue"><name>_998</name></member>
+    <member refid="class_normal_distribution_1ae9f25f18feae60da3ffc893754716d36af1cec3813bb5e99835e850fd9c029de6" kind="enumvalue"><name>_999</name></member>
+    <member refid="class_normal_distribution_1a46ef57a576192b82f19233a1fdec2e07" kind="variable"><name>confidence_to_z_score</name></member>
+    <member refid="class_normal_distribution_1a4a9c30fbff07a948a1eab456ec7d3903" kind="function"><name>RandomRangeNormalDistribution</name></member>
+    <member refid="class_normal_distribution_1a5c73f480387664ff5fab5d1cdc4cffc3" kind="function"><name>RandomNormalDistribution</name></member>
+    <member refid="class_normal_distribution_1af5a6a4bd05b0921d692042641cb67453" kind="function"><name>RandomFromStandardNormalDistribution</name></member>
+  </compound>
+  <compound refid="class_object_pool" kind="class"><name>ObjectPool</name>
+    <member refid="class_object_pool_1abcd5c7ecb42c6251562b4ed4539ed430" kind="function"><name>Start</name></member>
+    <member refid="class_object_pool_1af0bb9848b3ece0db4e6978edf0524731" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_object_spawner" kind="class"><name>ObjectSpawner</name>
+    <member refid="class_object_spawner_1a43fe8ca09cea96d565147ab1b4a2c18d" kind="function"><name>Start</name></member>
+    <member refid="class_object_spawner_1ad7e8b41a774d4032474bd539f8873050" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_pool_t_e_s_t" kind="class"><name>PoolTEST</name>
+    <member refid="class_pool_t_e_s_t_1a8fb4a6b9e026453d72645007feab5a9a" kind="variable"><name>enemyTypes</name></member>
+    <member refid="class_pool_t_e_s_t_1a7557a760324b6a92cd78e33e4863cc5a" kind="variable"><name>enemyTypeNumber</name></member>
+    <member refid="class_pool_t_e_s_t_1a7a00017d4e32c428508bd94ae3037b46" kind="function"><name>Start</name></member>
+    <member refid="class_pool_t_e_s_t_1ad37a41d024f6b09e14ffc01da3942eee" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_random_tests1" kind="class"><name>RandomTests1</name>
+    <member refid="class_random_tests1_1a00c7444e6dcff76fc9f183028fd594de" kind="function"><name>Start</name></member>
+    <member refid="class_random_tests1_1a438c01f0c289e1c8740c99b988632fc9" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_spawner_t_e_s_t" kind="class"><name>SpawnerTEST</name>
+    <member refid="class_spawner_t_e_s_t_1a6b797ea5c976d904d631e20478eac6f0" kind="function"><name>Start</name></member>
+    <member refid="class_spawner_t_e_s_t_1ab0a9817ddaa73a23ee122c5a9ac1e200" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_spawn_test" kind="class"><name>SpawnTest</name>
+    <member refid="class_spawn_test_1aaf5a2b45a08d07a5b16967de99de9fbd" kind="variable"><name>krugovi</name></member>
+    <member refid="class_spawn_test_1a737ec3fd8064909e3a958dc9b79ab5ab" kind="variable"><name>POOL_SIZE</name></member>
+    <member refid="class_spawn_test_1a705813abcba5c20759f81ac3670ecf36" kind="variable"><name>objectPool</name></member>
+    <member refid="class_spawn_test_1a189fa05b619f2fe3468dd5c65c86b430" kind="function"><name>Awake</name></member>
+    <member refid="class_spawn_test_1a90716343144234fab5bce6997a939e7a" kind="function"><name>Start</name></member>
+    <member refid="class_spawn_test_1a596acf6073906fce78cb82e4dec73a54" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_timer_idle_state" kind="class"><name>TimerIdleState</name>
+    <member refid="class_timer_idle_state_1a35a9682da5f905126912bd86c99b4fbc" kind="function"><name>Start</name></member>
+    <member refid="class_timer_idle_state_1a4f41a2fd2b2e2d97653182605480c468" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_timer_level" kind="class"><name>TimerLevel</name>
+    <member refid="class_timer_level_1a0ff64fd072cc02da0856517dacf00d33" kind="function"><name>Start</name></member>
+    <member refid="class_timer_level_1ae792fb4bd0e85e66c9ef4a51f6f78a83" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="_manager_g_a_m_e_8cs" kind="file"><name>ManagerGAME.cs</name>
+  </compound>
+  <compound refid="_manager_u_i_8cs" kind="file"><name>ManagerUI.cs</name>
+  </compound>
+  <compound refid="_object_pool_8cs" kind="file"><name>ObjectPool.cs</name>
+  </compound>
+  <compound refid="_object_spawner_8cs" kind="file"><name>ObjectSpawner.cs</name>
+  </compound>
+  <compound refid="_bounds_test_8cs" kind="file"><name>BoundsTest.cs</name>
+  </compound>
+  <compound refid="_distribution_test_8cs" kind="file"><name>DistributionTest.cs</name>
+  </compound>
+  <compound refid="_normal_distribution_8cs" kind="file"><name>NormalDistribution.cs</name>
+  </compound>
+  <compound refid="_pool_t_e_s_t_8cs" kind="file"><name>PoolTEST.cs</name>
+  </compound>
+  <compound refid="_random_tests1_8cs" kind="file"><name>RandomTests1.cs</name>
+  </compound>
+  <compound refid="_spawner_t_e_s_t_8cs" kind="file"><name>SpawnerTEST.cs</name>
+  </compound>
+  <compound refid="_spawn_test_8cs" kind="file"><name>SpawnTest.cs</name>
+  </compound>
+  <compound refid="_timer_idle_state_8cs" kind="file"><name>TimerIdleState.cs</name>
+  </compound>
+  <compound refid="_timer_level_8cs" kind="file"><name>TimerLevel.cs</name>
+  </compound>
+  <compound refid="dir_5c7df0ddf3285b7ac4cd7e72dbf438c9" kind="dir"><name>D:/Posao Ivan/3D</name>
+  </compound>
+  <compound refid="dir_657d5e0c4844283f2e16ccbfb6d5fe6f" kind="dir"><name>D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets</name>
+  </compound>
+  <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
+  </compound>
+  <compound refid="dir_d74b9706c9b529d4a130cc8d3664906c" kind="dir"><name>D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1</name>
+  </compound>
+  <compound refid="dir_28fde25af70ad3433f1804739ec2fe25" kind="dir"><name>D:/Posao Ivan</name>
+  </compound>
+  <compound refid="dir_caf9deaf93daeca9d7d1d04494bc10a4" kind="dir"><name>D:/Posao Ivan/3D/Scenes</name>
+  </compound>
+  <compound refid="dir_cebd0c9bf1eb039485c9d3f6e7af1014" kind="dir"><name>D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts</name>
+  </compound>
+  <compound refid="dir_d1817a21d17057c10be1ae6fecc16651" kind="dir"><name>D:/Posao Ivan/3D/Scenes/Unity tests/Various/FuzzyAliensSR1/Assets/Scripts/Test</name>
+  </compound>
+  <compound refid="dir_4e184d12c6e5f36fafb6be61d7e3367f" kind="dir"><name>D:/Posao Ivan/3D/Scenes/Unity tests</name>
+  </compound>
+  <compound refid="dir_a373e3c4faee1270f9051ec7484a0be7" kind="dir"><name>D:/Posao Ivan/3D/Scenes/Unity tests/Various</name>
+  </compound>
+</doxygenindex>

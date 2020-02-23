@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_5c7df0ddf3285b7ac4cd7e72dbf438c9" kind="dir">
+    <compoundname>D:/Posao Ivan/3D</compoundname>
+    <innerdir refid="dir_caf9deaf93daeca9d7d1d04494bc10a4">D:/Posao Ivan/3D/Scenes</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Posao Ivan/3D/"/>
+  </compounddef>
+</doxygen>
